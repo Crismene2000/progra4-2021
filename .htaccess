@@ -1,0 +1,8 @@
+
+#Impedir que se pueda ver el listado de los contenidos del directorio.
+#Optiion All -Indexes
+
+#URl amigables
+RewriteEngine on
+RewriteRule ^([A-Za-z0-9\&\=\_]+)$ index.php?action=$1
+
